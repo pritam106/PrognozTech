@@ -16,9 +16,9 @@
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="aboutus.html">About Us</a></li>
-      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="./HTML/courses.html">Courses</a></li>
+      <li><a href="./HTML/aboutus.html">About Us</a></li>
+      <li><a href="./HTML/contactus.html">Contact Us</a></li>
     </ul>
   </nav>
   <!-- Main Content -->
@@ -44,9 +44,23 @@
 </div>
   </main>
   <!-- Footer -->
+  <div>
+  <br>
+  <br>
+</div>
   <footer>
     <p>&copy; 2021 prognozTech</p>
   </footer>
+
+  <!-- footer -->
+
+
+
+
+
+
+
+
 
   <script>
     const nextButton = document.querySelector("button");
@@ -77,6 +91,8 @@ $(document).ready(function () {
  $("#hide").on("click", function () {
     $("#small-container").toggle();
     $(this).text($(this).text() === "Hide" ? "Show" : "Hide");  
+    $(footer).css("top", "100%");
+
   });
 });
   </script>

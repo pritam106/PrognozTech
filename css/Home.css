@@ -43,8 +43,8 @@ button:hover{
 }
 
 #hide{
-    margin-left: 30px;
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: #4CAF50; 
     color: white;
@@ -63,9 +63,9 @@ button:hover{
 }
 
 #hide:hover{
-    margin-left: 30px;
-    margin-top: 70px;
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-top: 20px;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -137,7 +137,7 @@ button:hover{
     box-sizing: border-box;
 }
 .container h1{
-    margin-left: 25rem;
+    margin-left: 500px;
     overflow: hidden;
     display: inline-block;
     background-color: #4CAF50;
@@ -185,24 +185,24 @@ main {
 }
     
 footer {
-    background-color: #333;
+    background-color: rgb(52,52,52);
     color: #fff;
     text-align: center;
     padding: 5px;
-    position: sticky;
+    position: sticky;  /* Add this */
     bottom: 0;
     width: 100%;
-}
+  }
+  
 
 #small-container{
     border-radius: 20px ;
     background-image: linear-gradient(to top left, #E68F65,#E67865);
     border: 60px;
-    height: 50vh;
-    width: 50vh;
-    margin-left: 30vh;
-    /* display: flex;
-    justify-content: space-around; */
+    height: 360px;
+    width: 379px;
+    margin-left: 25vh;
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
     box-shadow: 60px 60px 60px inset 60px 60px 100px black;
