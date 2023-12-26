@@ -189,7 +189,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 5px;
-    position: sticky;  /* Add this */
+    position: relative;  /* Add this */
     bottom: 0;
     width: 100%;
   }
