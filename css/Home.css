@@ -43,7 +43,7 @@ button:hover{
 }
 
 #hide{
-    margin-left: 20px;
+    margin-left: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #4CAF50; 
@@ -65,7 +65,7 @@ button:hover{
 #hide:hover{
     margin-left: 20px;
     margin-top: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border: none;
     color: white;
     padding: 5px 10px;
