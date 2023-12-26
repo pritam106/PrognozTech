@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Platform - Courses</title>
+    <link rel="stylesheet" href="../css/courses.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="container">
+        <img src="../Assests/ME.png" class="logo" alt="">
+        <h1>Welcome to the Learning Platform</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content - Courses Page -->
+    <main class="MainContainter">
+        <section id="courses">
+            <h2>Available Courses</h2>
+            
+            <!-- Course Listing -->
+            <table class="table" border="2px" align="center">
+                <tr>
+                    <th>Name of course</th>
+                    <th>Duration (in months)</th>
+                    <th>Price ($)</th>
+                    <th>click now</th>
+                </tr>
+                <tr>
+                    <td>Python fullstack developer</td>
+                    <td>6 months</td>
+                    <td>₹38000</td>
+                    <td><a href="https://prognoztech.net/online-courses-with-placement/">Enroll Now!</a></td>
+                </tr>
+                <tr>
+                    <td>Software testing </td>
+                    <td>4 months</td>
+                    <td>₹40000</td>
+                    <td><a href="https://prognoztech.net/online-courses-with-placement/">Enroll Now!</a></td>
+                </tr>
+                <tr>
+                    <td>Java developer</td>
+                    <td>4 months</td>
+                    <td>₹40000</td>
+                    <td><a href="https://prognoztech.net/online-courses-with-placement/">Enroll Now!</a></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <button class="button"  >Next</button>
+            <button id="toggleButton">Toggle Fade</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2021 Learning Platform</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // Initial fade in
+            $("#toggleButton").click(function () {
+                $(".table").fadeToggle();
+                $(".home").fadeIn(5000);
+            })
+            // $(".home, .table").animate({ backgroundColor: "yellow" }, 1000).delay(500).animate({ backgroundColor: "#fff" }, 1000);
+
+
+            // Toggle fade on button click
+            // $("#toggleButton").on("click", function () {
+            //     $(".home").animate({ backgroundColor: "yellow" }, 1000).delay(500).animate({ backgroundColor: "#fff" }, 1000);
+            //     // $(".home").animate({ backgroundColor: "yellow" }, 1000).delay(500).animate({ backgroundColor: "#fff" }, 1000);
+            
+                // $(".home").fadeOut(1);
+            });
+    </script>
+    <script>
+        const nextButton = document.querySelector(".button");
+        nextButton.addEventListener("click", function () {
+            window.location.href = "Aboutus.html";
+        });
+    </script>
+</body>
+</html>

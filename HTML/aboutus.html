@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Platform - About Us</title>
+    <link rel="stylesheet" href="../css/aboutus.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="container">
+        <img src="../Assests/ME.png" class="logo" alt="">
+        <h1>Welcome to the Learning Platform</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content - About Us Page -->
+    <main class="MainContainer">
+        <section id="aboutus">
+            <h2>About Us</h2>
+            <p>Welcome to the Learning Platform, your gateway to online education. We are committed to providing high-quality courses to help you achieve your learning goals.</p>
+            
+            <!-- Embedded Video -->
+            <div class="video-container">
+                <iframe width="1500" height="500" src="../Assests/Online IT Class - IT Skills Training Beginners - IT Course Professional - Complete IT Course Prognoz.mp4" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- Audio Element -->
+            <div class="audio-container">
+                <audio controls>
+                    <source src="../Assests/Online IT Class - IT Skills Training Beginners - IT Course Professional - Complete IT Course Prognoz.mp3" type="audio/mp3" class="audio">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <br>
+            <br>
+            
+            <button class="button">Next</button>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2021 prognozTech</p>
+    </footer>
+    <script>
+        const nextButton = document.querySelector("button");
+        nextButton.addEventListener("click", function () {
+            window.location.href = "contactus.html";
+        });
+    </script>
+</body>
+</html>

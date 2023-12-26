@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learning Platform</title>
+  <link rel="stylesheet" href="../css/Home.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="container">
+    <a href="home.html"><img src="../Assests/ME.png" class="img" alt="logo" /></a>
+    <h1 class="h1">Welcome to the prognozTech</h1>
+  </header>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- Main Content -->
+  <main>
+    <!-- Home Page -->
+    <section id="home">
+      <h2>Our Courses</h2>
+      <p>
+        We offer courses in various tech courses like Python developer, Java
+        developer, software testing.
+      </p>
+      <div id="small-container">
+      <a href="#" class="button-link">
+        <img src="../Assests/about-us.png" alt="Click me" width="100" height="100" class="image" />
+      </a>
+      <h6>Click to explore more</h6>
+      <button>Next</button>
+      </div>
+      <button id="hide">Hide</button>
+      </section>
+<div>
+
+</div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2021 prognozTech</p>
+  </footer>
+
+  <script>
+    const nextButton = document.querySelector("button");
+    nextButton.addEventListener("click", function () {
+      window.location.href = "courses.html";
+    });
+
+    // Prompt the user for their graduation status
+    var isGraduated = confirm(
+      "Have you graduated? Click OK if yes, and Cancel if not."
+    );
+
+    // Check the condition and display an alert with the user's response
+    if (isGraduated) {
+      alert(
+        "Congratulations on your graduation! You confirmed that you have graduated."
+      );
+    } else {
+      alert(
+        "Best of luck with your studies! You confirmed that you have not graduated yet."
+      );
+      // Close the current window/tab
+      window.close();
+    }
+
+    // show and hide toggle for container
+$(document).ready(function () {
+ $("#hide").on("click", function () {
+    $("#small-container").toggle();
+    $(this).text($(this).text() === "Hide" ? "Show" : "Hide");  
+  });
+});
+  </script>
+</body>
+</html>
