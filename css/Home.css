@@ -42,7 +42,7 @@ button:hover{
 }
 
 #hide{
-    /* margin-left: 14px; */
+    margin-left: 35px;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #4CAF50; 
@@ -62,7 +62,7 @@ button:hover{
 }
 
 #hide:hover{
-    margin-left: 50px;
+    margin-left: 35px;
     margin-top: 50px;
     border: none;
     color: white;
