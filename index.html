@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Learning Platform</title>
-  <link rel="stylesheet" href="../css/Home.css" />
-  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/Home.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <!-- Header -->
   <header class="container">
-    <a href="home.html"><img src="../Assests/ME.png" class="img" alt="logo" /></a>
+    <a href="home.html"><img src="./Assests/ME.png" class="img" alt="logo" /></a>
     <h1 class="h1">Welcome to the prognozTech</h1>
   </header>
   <!-- Navigation Bar -->
@@ -23,44 +26,32 @@
   </nav>
   <!-- Main Content -->
   <main>
+    <!-- <div class="content">
     <!-- Home Page -->
-    <section id="home">
+    <section id="home" class="animated-gradient">
       <h2>Our Courses</h2>
       <p>
         We offer courses in various tech courses like Python developer, Java
         developer, software testing.
       </p>
       <div id="small-container">
-      <a href="#" class="button-link">
-        <img src="../Assests/about-us.png" alt="Click me" width="100" height="100" class="image" />
-      </a>
-      <h6>Click to explore more</h6>
-      <button>Next</button>
+        <a href="#" class="button-link">
+          <img src="../Assests/about-us.png" alt="Click me" width="100" height="100" class="image" />
+        </a>
+        <h6>Click to explore more</h6>
+        <button>Next</button>
       </div>
       <button id="hide">Hide</button>
-      </section>
-<div>
-
-</div>
+    </section>
+  </div> 
   </main>
   <!-- Footer -->
-  <div>
-  <br>
-  <br>
-</div>
+
   <footer>
     <p>&copy; 2021 prognozTech</p>
   </footer>
 
   <!-- footer -->
-
-
-
-
-
-
-
-
 
   <script>
     const nextButton = document.querySelector("button");
@@ -87,14 +78,14 @@
     }
 
     // show and hide toggle for container
-$(document).ready(function () {
- $("#hide").on("click", function () {
-    $("#small-container").toggle();
-    $(this).text($(this).text() === "Hide" ? "Show" : "Hide");  
-    $(footer).css("top", "100%");
-
-  });
-});
+    $(document).ready(function () {
+      $("#hide").on("click", function () {
+        $("#small-container").toggle();
+        $(this).text($(this).text() === "Hide" ? "Show" : "Hide");
+        $(footer).css("top", "100%");
+      });
+    });
   </script>
 </body>
+
 </html>

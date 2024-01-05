@@ -22,7 +22,7 @@ body {
     text-align: center;
     padding: 10px;
     border: #333 1rem;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 }
 h1{
     margin-left: 25rem;
@@ -43,7 +43,7 @@ h1{
     text-align: center;
     padding: 20px;
     border: #333 1rem;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 
 }
 
@@ -58,7 +58,7 @@ h1{
     height: 7rem;
     width:  7rem;
     border: #333 1rem;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 
 }
 
@@ -89,7 +89,7 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 }
 
 #aboutus {
@@ -141,7 +141,7 @@ footer {
     margin-left: 23rem;     
     border-radius: 0.2rem;
     background-color: #000;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 }
 
 .button:hover{
@@ -157,6 +157,6 @@ footer {
     border: 1px  solid black;
     border-radius: 0.2rem;
     background-color: #4CAF50;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
     
 }

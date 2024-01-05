@@ -20,9 +20,8 @@ button{
     border: 1px  solid black;
     border-radius: 0.2rem;
     background-color: #333;
-    box-shadow: 5px 5px 10px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 600px #0000006c inset -20px -20px 60px rgba(255, 255, 255, 0.393) ;
 }
-
 button:hover{
     border: none;
     color: white;
@@ -38,14 +37,14 @@ button:hover{
     border-radius: 0.2rem;
     background-color: #4CAF50;
     box-sizing: border-box;
-    box-shadow: 5px 5px 10px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px rgba(255, 255, 255, 0.393) ;
     
 }
 
 #hide{
-    margin-left: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-left: 14px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #4CAF50; 
     color: white;
     padding: 5px 10px;
@@ -59,13 +58,12 @@ button:hover{
     border: 1px  solid black;
     border-radius: 0.2rem;
     background-color: #333;
-    box-shadow: 5px 5px 10px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px rgba(255, 255, 255, 0.393) ;
 }
 
 #hide:hover{
-    margin-left: 20px;
-    margin-top: 20px;
-    /* margin-top: 20px; */
+    margin-left: 50px;
+    margin-top: 50px;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -80,7 +78,7 @@ button:hover{
     border-radius: 0.2rem;
     background-color: #4CAF50;
     box-sizing: border-box;
-    box-shadow: 5px 5px 10px inset 60px 60px 60px black ;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px rgba(255, 255, 255, 0.393) ;
     
 }
 
@@ -91,7 +89,7 @@ button:hover{
     width:  5em;
     border: #333 1rem;
     box-sizing: border-box;
-    box-shadow: 10px 10px 10px black;
+    filter:drop-shadow( 20px 20px 20px black),
     }
 .image{
 
@@ -101,18 +99,28 @@ button:hover{
     width:  10em;
     border: #333 1rem;
     box-sizing: border-box;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 }
 #home{
-    background: linear-gradient( to bottom left, pink, skyblue);
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.7;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    color:rgb(52,52,52);
-    box-sizing: border-box;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black;
+  background: linear-gradient(to right, rgb(247, 163, 177), rgb(98, 198, 237));
+  text-align: center;
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  color: rgb(52, 52, 52);
+  box-shadow: 0 0 60px rgb(247, 163, 177);
+  animation: moveGradient 5s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes moveGradient {
+  0% {
+      background-position: 100% 0;
+  }
+  100% {
+      background-position: 0 0;
+  }
 }
 
 #home h6{
@@ -148,6 +156,7 @@ button:hover{
 }
 .navbar {
     padding: 15px;
+    width: 100%;
     background-color: rgb(52,52,52);
     overflow: hidden;
 }
@@ -165,7 +174,6 @@ button:hover{
 
 .navbar a {
     text-decoration: none;
-    display: relative;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
@@ -181,7 +189,7 @@ main {
     padding: 20px;
     background-color: #fff;
     box-sizing: border-box;
-    box-shadow: 60px 60px 60px inset 60px 60px 60px black;
+    box-shadow: 20px 20px 60px #0000006c inset -20px -20px 60px #ffffff66;
 }
     
 footer {
@@ -197,7 +205,7 @@ footer {
 
 #small-container{
     border-radius: 20px ;
-    background-image: linear-gradient(to top left, #E68F65,#E67865);
+    background-image: linear-gradient(to top left, #E68F65,#fc664c8e);
     border: 60px;
     height: 360px;
     width: 379px;
@@ -205,5 +213,4 @@ footer {
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-    box-shadow: 60px 60px 60px inset 60px 60px 100px black;
-}
+    box-shadow: 20px 20px 60px #0000006c  inset -20px -20px 60px rgba(255, 255, 255, 0.393) ;}
